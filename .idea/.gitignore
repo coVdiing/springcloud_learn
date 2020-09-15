@@ -1,0 +1,25 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+/../../../../:\ToOffer\springcloud_learn\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+/.idea
+*.iml
+# maven ignore
+target/
+# temp file
+*.log
+*.cache
+*.diff
+*.tmp
+# system ignore
+.DS_Store
+Thumbs.db
+# pic
+*.jpg
+*.jpeg
+*.bmp
+*.png
