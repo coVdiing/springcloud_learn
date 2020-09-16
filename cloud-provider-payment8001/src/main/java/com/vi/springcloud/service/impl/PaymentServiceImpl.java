@@ -3,7 +3,6 @@ package com.vi.springcloud.service.impl;
 import com.vi.springcloud.dao.PaymentDao;
 import com.vi.springcloud.entities.Payment;
 import com.vi.springcloud.service.PaymentService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
