@@ -13,7 +13,7 @@ import javax.annotation.Resource;
 @Slf4j
 public class PaymentController {
     @Resource
-    PaymentService paymentService;
+    private PaymentService paymentService;
     @Value("${server.port}")
     private String serverPort;
 
