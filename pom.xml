@@ -11,6 +11,7 @@
     <module>cloud-provider-payment8001</module>
     <module>cloud-consumer-order80</module>
     <module>cloud-api-commons</module>
+      <module>cloud-eureka-server7001</module>
   </modules>
   <packaging>pom</packaging>
 
@@ -27,7 +28,7 @@
     <mybatis.spring.boot.version>1.3.0</mybatis.spring.boot.version>
   </properties>
 
-  <!-- 一般用在父工程里面，子模块继承之后，提供作用:锁定版本和子moudule不用写groupId和version-->
+  <!-- 一般用在父工程里面，子模块继承之后，提供作用:锁定版本和子moudule不用写groupId和version,这里的依赖只是声明，真正的引入在子模块部分-->
   <dependencyManagement>
     <dependencies>
       <!--spring boot 2.2.2-->
