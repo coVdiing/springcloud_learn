@@ -1,15 +1,13 @@
 server:
-  port: 8006
-
+  port: 80
 spring:
   application:
-    name: consul-provider-payment
+    name: consul-consumer-order
   cloud:
-    consul: # consul注册配置
+    consul:
       host: 192.168.0.110
       port: 8500
       discovery:
         service-name: ${spring.application.name}
         heartbeat:
           enabled: true
-
