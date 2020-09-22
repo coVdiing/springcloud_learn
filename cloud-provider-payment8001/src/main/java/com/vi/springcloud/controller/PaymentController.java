@@ -60,4 +60,15 @@ public class PaymentController {
         }
         return discoveryClient;
     }
+
+    @GetMapping("/payment/feign/timeout")
+    public String paymentFeignTimeout() {
+        //模拟耗时较长的复杂业务
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        return port;
+    }
 }
